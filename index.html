@@ -164,7 +164,7 @@
                 var target = document.getElementById('MemoryTemplate');
                 var clone = target.cloneNode(true);
                 clone.style.display = 'flex';
-                clone.querySelector('p').textContent = document.getElementById("TextToStore").value;
+                clone.querySelector('p').textContent = "Content";
 
                 clone.addEventListener('click', function() {
                     var index = AllMemories.indexOf(clone);
